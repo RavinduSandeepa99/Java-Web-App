@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two:700|Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    text-align: center;
+     background-image:url("unsccess.png");
+    font-family: 'Poppins',sans-serif;
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+::selection{
+    color: white;
+    background: #48DBFB;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal-box{
+    top: 40%;
+    background: white;
+    height: auto;
+    width: 400px;
+    padding: 30px;
+    border-radius: 5px;
+    border: 1px solid #50dcfb;
+    box-shadow: 5px 5px 30px rgba(0,0,0,.2);
+    top: 50%;
+    opacity: 1;
+    visibility: visible;
+    transition: .4s;
+}
+
+.modal-box .icon1{
+    font-size: 100px;
+    background: #FF0000;
+    height: 120px;
+    width: 120px;
+    color: white;
+    border-radius: 50%;
+    line-height: 120px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.modal-box header{
+    font-size: 31px;
+    font-family: 'Lobster Two';
+    margin-bottom: 10px;
+}
+.modal-box p{
+    /* margin-bottom: 10px; */
+    line-height: 20px;
+    color: grey;
+}
+form input, form button{
+    height: 50px;
+    width: 95%;
+    border-radius: 3px;
+}
+
+form button{
+    margin-top: 15px;
+    background:#D60000 ;
+    color: white;
+    font-size: 25px;
+    border: 2px solid #FF0000;
+    letter-spacing: 1px;
+    cursor: pointer;
+    outline: none;
+    transition: .3s;
+}
+form button:hover{
+    background: #FF0000;
+    border: 2px solid #FF0000;
+    letter-spacing: 2px;
+}
